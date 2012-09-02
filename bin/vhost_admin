@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'vhost_admin/runner'
+VhostAdmin::Runner.start
+
