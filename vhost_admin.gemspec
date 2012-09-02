@@ -5,12 +5,13 @@ require 'vhost_admin/version'
 
 Gem::Specification.new do |gem|
   gem.add_dependency 'thor'
+  gem.add_dependency 'postfix_admin'
 
   gem.name          = "vhost_admin"
   gem.version       = VhostAdmin::VERSION
   gem.authors       = ["Hitoshi Kurokawa"]
   gem.email         = ["hitoshi@nextseed.jp"]
-  gem.description   = %q{CLI Tools to manage virtual hosts fo Apache and Postfix}
+  gem.description   = %q{Command Line Tools to manage virtual hosts fo Apache and Postfix}
   gem.summary       = gem.description
   gem.homepage      = ""
 
